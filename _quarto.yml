@@ -21,4 +21,4 @@ format:
       - top=22mm
       - bottom=25mm
 
-    mainfont: "Helvetica Neue"
+    mainfont: "TeX Gyre Heros"
