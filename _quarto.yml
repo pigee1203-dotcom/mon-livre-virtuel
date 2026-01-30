@@ -4,6 +4,7 @@ project:
 book:
   title: "Fragile Forms Collection"
   author: "ART ME UP by MELP"
+  cover-image: cover.jpg
   chapters:
     - index.qmd
     - still.qmd
