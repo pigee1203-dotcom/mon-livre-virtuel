@@ -1,0 +1,28 @@
+name: Fabrication du Livre
+on:
+  push:
+    branches: [ main ] # Se lance dès que tu enregistres un changement
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le projet
+        uses: actions/checkout@v4
+
+      - name: Installer Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Installer les outils PDF
+        run: quarto install tool tinytex
+
+      - name: Creer le PDF
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          to: pdf
+
+      - name: Rendre le PDF disponible
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mon-Livre-Fragile-Forms
+          path: "*.pdf"
