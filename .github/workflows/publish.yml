@@ -1,7 +1,8 @@
 name: Fabrication du Livre
+
 on:
   push:
-    branches: [ main ] # Se lance dès que tu enregistres un changement
+    branches: [ main ]
 
 jobs:
   build-pdf:
@@ -16,7 +17,7 @@ jobs:
       - name: Installer les outils PDF
         run: quarto install tool tinytex
 
-      - name: Creer le PDF
+      - name: Cree le PDF
         uses: quarto-dev/quarto-actions/render@v2
         with:
           to: pdf
@@ -25,8 +26,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Mon-Livre-Fragile-Forms
-       path: "**/*.pdf"
-
-
-
-          
+          path: "**/*.pdf"
