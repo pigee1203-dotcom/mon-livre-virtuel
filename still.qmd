@@ -2,8 +2,6 @@
 
 ## Origami Wolf — Limited Edition
 
----
-
 ::: {.columns}
 
 ::: {.column width="50%"}
@@ -15,8 +13,6 @@
 :::
 
 :::
-
----
 
 \newpage
 
