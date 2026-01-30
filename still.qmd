@@ -3,15 +3,14 @@
 ## Origami Wolf — Limited Edition
 **Limited & numbered edition**
 
-
 ::: {.columns}
 
 ::: {.column width="50%"}
-![](images/still-front.jpg){width=100%}
+![](images/still-front.png){width=100%}
 :::
 
 ::: {.column width="50%"}
-![](images/still-back.jpg){width=100%}
+![](images/still-back.png){width=100%}
 :::
 
 :::
