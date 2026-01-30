@@ -1,0 +1,15 @@
+project:
+  type: book
+
+book:
+  title: "Fragile Forms Collection"
+  author: "ART ME UP by MELP"
+  cover-image: cover.pgn.png
+  chapters:
+    - index.qmd
+
+format:
+  pdf:
+    documentclass: scrreport
+    papersize: a4
+    toc: true
