@@ -12,4 +12,3 @@ format:
   pdf:
     documentclass: scrreport
     papersize: a4
-    toc: true
