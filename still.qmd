@@ -1,13 +1,32 @@
 # STILL
 
+## Origami Wolf — Limited Edition
+
+---
+
+::: {.columns}
+
+::: {.column width="50%"}
+![](images/still-front.jpg){width=100%}
+:::
+
+::: {.column width="50%"}
+![](images/still-back.jpg){width=100%}
+:::
+
+:::
+
+---
+
+\newpage
+
 **Fragile Form Series – Still**
 
-Still représente l’instant suspendu. Une forme immobile, fragile, presque retenue dans son propre souffle.
+Still représente l’instant suspendu.  
+Une forme immobile, fragile, presque retenue dans son propre souffle.
 
 Le loup origami est posé dans un équilibre précaire, symbole du calme intérieur que l’on protège malgré le mouvement du monde autour.
 
 *Édition pensée pour celles et ceux qui trouvent leur force dans la retenue.*
 
 \newpage
-
-> **Note :** Tu pourras ajouter l'image du chandail ici plus tard !
